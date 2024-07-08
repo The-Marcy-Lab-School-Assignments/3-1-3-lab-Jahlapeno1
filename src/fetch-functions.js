@@ -23,6 +23,13 @@ export const getFirstThreeFantasyBooks = async () => {
       firstThreeBooks.push(book)
     }
     // console.log(firstThreeBooks)
+    /*
+    FEEDBACK:
+    Great use of a for loop!
+    Another way you could have done it is by using slice to cut bookData.works
+    and then using .map on that array.
+    Theirs many ways to do it, and your way works great! 
+    */
     return firstThreeBooks
 
   } catch (error) {

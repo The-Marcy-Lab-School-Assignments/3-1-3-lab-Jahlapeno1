@@ -41,6 +41,12 @@ export default async function app(appDiv) {
     console.warn(error)
   }
 
+  /*
+  FEEDBACK:
+  Since we already implemented the try and catch into the getFirstThreeFantasyBooks function,
+  it is not necessary here
+  */
+
   
   
   
